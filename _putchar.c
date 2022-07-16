@@ -1,10 +1,14 @@
-#include <unistd.h>
+#include "holberton.h"
 
 /**
- * _putchar - writes the char to c stdout
- * @c: the character to print
+ * _putchar - Entry point
  *
- * Return: write system call. -1 if something went wrong.
+ * Description: Writes the character c to stdout
+ *
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 
 int _putchar(char c)
